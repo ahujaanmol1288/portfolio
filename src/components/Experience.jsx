@@ -29,7 +29,7 @@ const Experience = () => {
                     <p className="text-4xl">Blinkit</p>
                     <p className='text-base'>Software Developement Engineer</p>
                     <p className="text-gray text-xl">July 2022 - Present</p>
-                    <p className="text-justify text-lg text-sky-500
+                    <p className="text-justify text-lg
 ">
                     ◦ Working with Inventory team to maintain the records of items at different warehouses across the country.<br/>
                     ◦ Introduced various notification systems which made the system more scalable and user-friendly.<br/>
@@ -44,7 +44,7 @@ const Experience = () => {
                     <p className="text-4xl">Amazon</p>
                     <p className='text-base'>Software Developement Engineer Intern</p>
                     <p className="text-gray text-xl">Febraury 2022 - July 2022</p>
-                    <p className="text-justify text-lg text-sky-500">
+                    <p className="text-justify text-lg ">
                     ◦ Worked with Middle Mile Prod Tech Team as an Software Development Engineer Intern.<br/>
                     ◦ Worked as an On-call for a team for around 3 weeks, solved around 45 tickets for the team.<br/>
                     ◦ Built new software for the team which increased the overall efficiency by nearly 15%, and reduced the latency time, also
@@ -60,7 +60,7 @@ const Experience = () => {
                     <p className="text-4xl">Vymo</p>
                     <p className='text-base'>Software Developement Engineer Intern</p>
                     <p className="text-gray text-xl">June 2021 - December 2021</p>
-                    <p className="text-justify text-lg text-sky-500">
+                    <p className="text-justify text-lg ">
                     ◦ Worked with Data Engineering team,working on building the data pipelines using big data tools like Kafka,Elastic
 Search,Kibana, MongoDB,NodeJS,JavaScript,Jenkins.
                     </p>
@@ -73,7 +73,7 @@ Search,Kibana, MongoDB,NodeJS,JavaScript,Jenkins.
                     <p className="text-4xl">InterviewBit</p>
                     <p className='text-base'>Teaching Assistant</p>
                     <p className="text-gray text-xl">Nobember 2020 - June 2021</p>
-                    <p className="text-justify text-lg text-sky-500">
+                    <p className="text-justify text-lg">
                     ◦ Framed new Problems on Data Structures and Algorithms, Solved Live and text help requests raised by students for
 programming problems based on Data Structures and Algorithms.Resolved more than 1000+ DSA Problems.
                     </p>
