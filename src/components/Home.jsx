@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/myImg.jpeg";
+import myImg from "../assets/myImg.jpg";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsArrowRightShort } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
@@ -55,12 +55,6 @@ const Home = () => {
                 .typeString("Anmol Ahuja")
                 .pauseFor(500)
                 .deleteAll()
-                .typeString("a Competitive Programmer")
-                .pauseFor(500)
-                .deleteAll()
-                .typeString("a Coding Instructor")
-                .pauseFor(500)
-                .deleteAll()
                 .typeString("a Software Developer")
                 .pauseFor(500)
                 .start();
@@ -114,7 +108,7 @@ const Home = () => {
           <img
             src={myImg}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-96 h-96 md:w-full"
           />
         </div>
       </div>

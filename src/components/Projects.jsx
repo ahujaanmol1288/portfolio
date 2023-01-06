@@ -8,16 +8,19 @@ const Projects = () => {
     {
       id: 1,
       src: DelhiMetro,
+      url: "https://github.com/ahujaanmol1288/Delhi-Metro-Rail-App",
       name: "DELHI METRO ROUTE MAP",
     },
     {
       id: 2,
       src: Todo,
+      url: "https://github.com/ahujaanmol1288/ToDo-List-Final",
       name: "DOCKET OF THE DAY",
     },
     {
       id: 3,
       src: Editor,
+      url: "https://github.com/ahujaanmol1288/Autocomplete_trie-",
       name: "TEXT EDITOR"
     },
   ];
@@ -32,11 +35,12 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-2xl">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src , name }) => (
+          {portfolios.map(({ id, src , name, url }) => ( 
+            <a href={url} target="_blank" rel="noreferrer" >
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
               <img
                 src={src}
@@ -50,6 +54,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            </a>
           ))}
         </div>
       </div>

@@ -20,12 +20,18 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        A software engineer who loves to solve challenging problems. Also, an educator by passion likes teaching Data Structures & Algorithms in CPP.
+<br/>
+<br/>
+Languages - C++, C, JavaScript, Java, Python
+<br/>
+Frameworks & Tools - Django, NodeJS, React, AWS, ExpressJS
+<br/>
+
+<br/>
+Graduation - 
+Jaypee Institute of Information Technology, Noida (Branch - Electronics And Communication Engineering) CGPA - 8.0/10
+
         </p>
       </div>
     </div>
